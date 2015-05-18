@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nromal_lv" />
+
+    <Button
+        android:id="@+id/btnLoardMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LoadMore_lv" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refresh_lv" />
+
+</LinearLayout>
